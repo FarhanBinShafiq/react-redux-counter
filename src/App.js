@@ -1,5 +1,6 @@
  import React from 'react';
 import Counter from './components/Counter';
+import HookCounter from './components/HookCounter';
  
  const App = () => {
   return (
@@ -12,8 +13,8 @@ import Counter from './components/Counter';
 
            
            <>
-             <Counter id={2}/>
-             <Counter id={3}/>
+             <HookCounter />
+            
            </>
         </div>
 
